@@ -217,3 +217,83 @@ export const SocialMedia = [
     }
 
 ]
+
+export const headMasterAddress =
+  "Welcome to the College of Health at Sefwi-Asafo (COHSA)," +
+    " where your journey to becoming a skilled and compassionate healthcare" +
+    " professional begins. We are thrilled to have you join our community of" +
+    " dedicated students, faculty, and staff who share a common passion" +
+    " for excellence in nursing and allied health education.";
+
+
+
+export const News = [
+    {
+        name: "the Principal",
+        date: "On Friday, August 16, 2024",
+        mainDAte: "July 21, 2024",
+        description: "COHSA Nursing Graduate Excel in National Licensing Exams"
+
+    },
+    {
+        name: "Mr. Simon Asante",
+        date: "On Monday, August 16, 2024",
+        mainDAte: "July 28, 2024",
+        description: "COHSA Launches New Simulation Lab to Enhance Clinical Training."
+
+    },
+    {
+        name: "Asafo Hospital",
+        date: "On Monday, August 16, 2024",
+        mainDAte: "July 28, 2024",
+        description: "COHSA Partners with Local Hospital for Extended Internship Opportunities."
+
+    },
+]
+
+export const Announcements = [
+    {
+        id: "1",
+        date: " August 16, 2024",
+        description: "COHSA Welcomes New Dean of Nursing."
+
+    },
+    {
+        id: "2",
+        date: " August 16, 2024",
+        description: "Application Deadline Extended for COHSA Fall Semester."
+
+    },
+    {
+        id: "3",
+        date: "August 16, 2024",
+        description: "COHSA Launches Scholarship Program for Underrepresented Students."
+
+    },
+    {
+        id: "4",
+        date: "August 16, 2024",
+        description: "COHSA Receive Grant for Nursing Research and Innovation."
+
+    },
+]
+export const Events = [
+    {
+        id: "1",
+        date: " August 16, 2024",
+        description: "COHSA Student-Led Health Fair"
+
+    },
+    {
+        id: "2",
+        date: " August 16, 2024",
+        description: "COHSA Open House and Campus Tour."
+
+    },
+    {
+        id: "3",
+        date: "August 16, 2024",
+        description: " Annual COHSA Nursing Alumni Reunion "
+
+    },
+]

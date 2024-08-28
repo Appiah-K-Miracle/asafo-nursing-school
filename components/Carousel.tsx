@@ -27,11 +27,12 @@ export function CarouselHome() {
             <CarouselContent>
                 {CarouseImages.map((index) => (
                     <CarouselItem key={index.id}>
-                        <div className="h-40">
+                        <div>
                             <Image
                                 alt="Carousel Images"
                                 src={index.images}
-                                sizes="contain"
+                                sizes="cover"
+                                className="h-48 md:h-[447px] w-full"
 
                             />
                         </div>

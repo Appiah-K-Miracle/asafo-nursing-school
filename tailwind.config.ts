@@ -27,8 +27,8 @@ const config = {
         primaryColor: "#ffffff",
         secondaryColor: "#02a352",
         TextColor: "#555555",
-        buttonColor: "#ffc712",
-        otherColor: "#8c003b",
+        buttonColor: "#ffff20",
+        otherColor: "#e30b5c",
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
