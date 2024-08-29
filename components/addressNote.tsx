@@ -8,10 +8,10 @@ import Link from "next/link";
 
 function AddressNote() {
     return (
-        <section className=" container md:flex md:px-20 py-4">
-            <div className="text-align-center px-4 py-4 md:w-[150rem]  md:relative md:top-1/3">
+        <section className="  gap-10 md:flex md:px-32 py-4">
+            <div className="md:mt-10 py-4 ">
                 <h2 className="text-xl md:text-4xl md:py-4 font-bold text-TextColor pb-4">Welcome to College of Health at Sefwi-Asafo (COHSA)</h2>
-                <p className="text-lg text-gray-900  line-clamp-5 md:line-clamp-none text-justify ">{headMasterAddress}</p>
+                <p className="text-lg text-gray-900 md:mt-5 line-clamp-5 md:line-clamp-none text-justify ">{headMasterAddress}</p>
                 <span>
                     <Link href=" ">Read More</Link>
                 </span>

@@ -39,16 +39,18 @@ export function Navbar() {
                     <NavItem title="Admission" subItems={AdmissionSubNavbar} />
                     <NavItem title="Students" subItems={StudentSubNavbar} />
                     <NavItem title="Staff" subItems={StaffSubNavbar} />
+                      <li className="text-TextColor text-lg font-medium">Research</li>
                 </ul>
             </div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex md:items-center md:justify-center list-none space-x-8 p-4">
-                <NavItem title="About" subItems={AboutSubNavbar} />
-                <NavItem title="Academic" subItems={AcademicSubNavbar} />
-                <NavItem title="Admission" subItems={AdmissionSubNavbar} />
-                <NavItem title="Students" subItems={StudentSubNavbar} />
-                <NavItem title="Staff" subItems={StaffSubNavbar} />
+                <NavItem title="About" subItems={AboutSubNavbar}/>
+                <NavItem title="Academic" subItems={AcademicSubNavbar}/>
+                <NavItem title="Admission" subItems={AdmissionSubNavbar}/>
+                <NavItem title="Students" subItems={StudentSubNavbar}/>
+                <NavItem title="Staff" subItems={StaffSubNavbar}/>
+                <li className="text-TextColor text-lg font-medium">Research</li>
             </div>
         </nav>
     );
@@ -76,11 +78,11 @@ function NavItem({ title, subItems }: NavItemProps) {
         >
             {/* Main Menu Item */}
             <div
-                className="flex items-center justify-between w-full md:w-auto py-2 md:py-0 font-medium text-left md:text-center"
+                className="flex items-center justify-between w-full md:w-auto py-2 md:py-0   text-left md:text-center text-TextColor text-lg font-medium"
             >
                 {title}
-                <span className="hidden md:flex items-center">
-                    <ChevronDown className={`ml-2 transform transition-transform duration-200 ${
+                <span className="hidden md:flex items-center ">
+                    <ChevronDown color="#555555" className={`ml-2 transform transition-transform duration-200 ${
                         isOpen ? "rotate-180" : ""
                     }`} />
 

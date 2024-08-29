@@ -32,7 +32,7 @@ export function CarouselHome() {
                                 alt="Carousel Images"
                                 src={index.images}
                                 sizes="cover"
-                                className="h-48 md:h-[447px] w-full"
+                                className="h-48 md:h-[500px] w-full"
 
                             />
                         </div>

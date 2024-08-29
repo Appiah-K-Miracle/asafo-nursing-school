@@ -297,3 +297,96 @@ export const Events = [
 
     },
 ]
+
+
+export const AboutCollege = [
+    {
+        title: "Office of the Principal",
+        href: "/docs/primitives/tabs",
+
+
+    },
+    {
+        title: "Office of the Dean of Students",
+        href: "/docs/primitives/alert-dialog",
+
+
+    },
+    {
+        title: "Academic Department",
+        href: "/docs/primitives/hover-card",
+
+
+    },
+    {
+        title: "College Library",
+        href: "/docs/primitives/progress",
+
+    },
+
+    {
+        title: "How to Apply",
+        href: "/docs/primitives/scroll-area",
+
+
+    },
+
+    {
+        title: "Contact Us",
+        href: "/docs/primitives/tooltip",
+
+
+    },
+    {
+        title: "Office of the IT",
+        href: "/docs/primitives/tooltip",
+
+
+    },
+]
+
+export const Courses = [
+    {
+        title: "Diploma un Registered General Nursing",
+        href: "/docs/primitives/tabs",
+
+
+    },
+    {
+        title: "Diploma in Nutrition and Dietetic",
+        href: "/docs/primitives/alert-dialog",
+
+
+    },
+    {
+        title: "Nutrition and Dietetic Assistants",
+        href: "/docs/primitives/hover-card",
+
+
+    },
+    {
+        title: "Post Basic MidWifely",
+        href: "/docs/primitives/progress",
+
+    },
+
+]
+
+
+export const Location = [
+    {
+        title: "College Of Health Sefwi-Asafo (COHSA)",
+    },
+    {
+        title: "P.O.Box --, Sefwi-Asafo, Ghana",
+    },
+    {
+        title: "+233 (0)555730537"
+    },
+    {
+        title: "sjognt@gmail.com",
+    },
+
+]
+
+

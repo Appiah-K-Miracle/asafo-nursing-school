@@ -6,10 +6,10 @@ import {Separator} from "@/components/ui/separator";
 
 function NewsPage() {
     return (
-       <section className="w-full py-4 ">
+       <section className="w-full py-4 md:px-16 ">
            <div className="container py-5 md:px-20 justify-between  md:flex md:gap-32">
                <div className="flex-1">
-                   <h2 className="text-2xl md:text-3xl font-bold text-black py-4 ">News from COHSA</h2>
+                   <h2 className="text-2xl md:text-3xl uppercase font-bold text-black py-4 ">News from COHSA</h2>
                    <div className="py-7">
                        <Image src={pic1} alt="News1"  className=" md:h-[350px]" />
                    </div>

@@ -7,7 +7,7 @@ import {Separator} from "@/components/ui/separator";
 
 function MainNavBar() {
     return (
-         <section className="flex  border border-red-600 items-center  container justify-between p-2 md:container ">
+         <section className="flex items-center  container justify-between p-2 ">
                 <div className="flex">
                     <div  className="w-1/12 h-1/12">
                     <Image

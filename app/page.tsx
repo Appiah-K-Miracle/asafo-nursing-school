@@ -4,8 +4,11 @@ import Heading from "@/components/Heading";
 import MainNavBar from "@/components/MainNavBar";
 import {CarouselHome} from "@/components/Carousel";
 import AddressNote from "@/components/addressNote";
-import NewsPage from "@/components/newsPage";
+import NewsPage from "@/components/NewsPage";
 import EventsAnnounce from "@/components/eventsAnnounce";
+import Media from "@/components/media";
+import Spotlight from "@/components/spotlight";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
           <AddressNote/>
           <NewsPage/>
           <EventsAnnounce/>
+          <Media/>
+          <Spotlight/>
+        <Footer/>
       </main>
   );
 }

@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function Heading() {
     return (
-        <section className=" h-[40px]  flex sm:flex-row sm:justify-between  bg-secondaryColor container  items-center justify-center ">
+        <section className="w-full bg-secondaryColor    ">
 
-
+            <div className="h-[40px] flex sm:flex-row  sm:justify-between items-center justify-center container">
                 <div className="text-white hidden sm:flex font-medium text-sm">
                     <h2>QUALITY HEALTHCARE IS WHAT GHANAIAN NEEDS</h2>
                 </div>
@@ -23,6 +23,7 @@ function Heading() {
                     ))}
                 </div>
 
+            </div>
         </section>
     );
 }

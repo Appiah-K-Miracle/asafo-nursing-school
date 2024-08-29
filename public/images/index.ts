@@ -4,5 +4,6 @@ export { default as CarouseImg2 } from './carouse-img2.jpg';
 export { default as CarouseImg3 } from './carousel-img1.jpg';
 export { default as CarouseImg4 } from './carouse-img3.jpeg';
 export { default as pic1 } from './carousel-img1.jpg';
-export { default as pic2 } from './img7.jpeg';
-export { default as pic3 } from './img8.jpeg';
+export { default as pic2 } from './img1.jpeg';
+export { default as pic3 } from './img9.jpg';
+export { default as pic4 } from './img10.jpeg';
