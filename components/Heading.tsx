@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Heading() {
     return (
-        <section className="w-full bg-secondaryColor    ">
+        <section className="w-full bg-primaryColor    ">
 
             <div className="h-[40px] flex sm:flex-row  sm:justify-between items-center justify-center container">
                 <div className="text-white hidden sm:flex font-medium text-sm">
