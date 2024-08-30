@@ -3,10 +3,10 @@ import {Separator} from "@/components/ui/separator";
 
 const Media = () => {
     return (
-        <section className="  py-7 md:mx-32">
+        <section className=" px-4 md:px-0 py-7 md:mx-32">
             <div className="">
-                <h2 className="text-4xl font-extrabold uppercase">Media</h2>
-                <Separator className="w-[70px] border-2 mb-5 border-gray-200"/>
+                <h2 className="text-4xl text-TeiColor font-extrabold uppercase">Media</h2>
+                <Separator className="w-[70px] border-2 mb-5 border-secondaryColor"/>
             </div>
             <div className="md:flex ">
 

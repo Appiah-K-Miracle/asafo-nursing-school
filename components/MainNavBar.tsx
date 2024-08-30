@@ -7,19 +7,18 @@ import {Separator} from "@/components/ui/separator";
 
 function MainNavBar() {
     return (
-         <section className="flex container justify-between p-2 ">
-                <div className="flex">
-                    <div  className="hidden w-1/12 h-1/12">
+         <section className="flex container justify-between items-center p-2 ">
+                <div className="flex justify-start">
+                    <div  className=" items-center w-20  md:w-30  h-1/12">
                     <Image
                         src={logo}
                         alt="Logo"
 
                     />
                     </div>
-                    <Separator  orientation="vertical" className="hidden mr-3 border border-TextColor m-1 h-15" />
 
-                    <div className="flex flex-col">
-                        <h3 className="text-3xl font-extrabold text-secondaryColor">COLLEGE OF HEALTH</h3>
+                    <div className="flex flex-col justify-center md:mt-0">
+                        <h3 className=" text-xl md:text-3xl font-extrabold text-secondaryColor">COLLEGE OF HEALTH</h3>
                         <h3 className="text-primaryColor font-bold text-lg">SEFWI-ASAFO (COHSA)</h3>
                     </div>
 

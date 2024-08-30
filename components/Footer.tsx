@@ -4,7 +4,7 @@ import {AboutCollege, Courses, Events, Location} from "@/constants";
 
 const Footer = () => {
     return (
-        <section className="bg-secondaryColor pt-10 pb-5 mt-6">
+        <section className="bg-primaryColor pt-10 pb-5 mt-2">
             <div className="md:flex justify-between container ">
                 <div className="flex-1 md:pt-5">
                     <div className=" ">

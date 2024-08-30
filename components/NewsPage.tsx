@@ -9,20 +9,20 @@ function NewsPage() {
        <section className="w-full py-4 md:px-16 ">
            <div className="container py-5 md:px-20 justify-between  md:flex md:gap-32">
                <div className="flex-1">
-                   <h2 className="text-2xl md:text-3xl uppercase font-bold text-black py-4 ">News from COHSA</h2>
+                   <h2 className="text-2xl md:text-3xl uppercase font-extrabold text-TeiColor py-4 ">News from COHSA</h2>
                    <div className="py-7">
                        <Image src={pic1} alt="News1"  className=" md:h-[350px]" />
                    </div>
                    <div>
                        <p className="text-TextColor font-bold py-2">September 10, 2024</p>
-                       <h1 className="capitalize text-justify text-xl font-bold">Citation of Honour given to a Tutor in COHSA. </h1>
+                       <h1 className="capitalize text-justify text-xl font-extrabold text-TeiColor md:text-3xl">Citation of Honour given to a Tutor in COHSA. </h1>
                    </div>
                </div>
 
                <div className="py-5 flex-1">
                    <div className="flex flex-wrap items-center justify-between">
-                       <h2 className="text-xl md:text-[25px] font-bold">Explore more news</h2>
-                       <div className="border border-green-600 p-1 bg-secondaryColor">
+                       <h2 className="text-xl md:text-[25px] capitalize font-extrabold text-TeiColor">Explore more news</h2>
+                       <div className="border border-green-600 p-1 bg-primaryColor">
                            <h2 className="text-white capitalize">Read more {'>>'} </h2>
                        </div>
                    </div>

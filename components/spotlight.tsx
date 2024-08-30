@@ -7,20 +7,20 @@ import {pic2, pic4} from "@/public/images";
 
 const SpotLight = () => {
     return (
-        <section className="container py-7 md:px-32">
+        <section className=" px-4 py-7 md:px-32">
             <div className="">
                 <div className=" pt-5">
-                    <h2 className="text-4xl font-extrabold uppercase">SpotLight</h2>
-                    <Separator className="w-[70px] border-2 mb-5 border-gray-200"/>
+                    <h2 className="text-4xl font-extrabold uppercase text-TeiColor">SpotLight</h2>
+                    <Separator className="w-[70px] border-2 mb-5 border-secondaryColor"/>
                 </div>
                 <div className="md:flex gap-2"> {/*responsiveness*/}
                     <div className="flex-1">
                         <div className="flex w-[100px] items-center justify-between py-4">
-                            <Separator orientation={"vertical"} className="bg-otherColor border border-red-600 h-6"/>
+                            <Separator orientation={"vertical"} className=" border border-secondaryColor h-6"/>
                             <div className="flex items-center">
 
-                            <BriefcaseBusiness className="mr-2 " />
-                            <p className="uppercase font-bold text-sm">Staff</p>
+                            <BriefcaseBusiness className="mr-2  text-secondaryColor" />
+                            <p className="uppercase font-extrabold text-TeiColor text-sm">Staff</p>
                             </div>
                         </div>
                         <Card className="">
@@ -32,7 +32,7 @@ const SpotLight = () => {
                                 </CardTitle>
                             </CardHeader >
                             <CardContent className="p-0" >
-                                <p className="text-lg  text-white bg-otherColor font-medium text-justify p-4">
+                                <p className="text-lg  text-white bg-primaryColor font-medium text-justify p-4">
                                     The COHSA Library offers an extensive collection of resources, including textbooks, reference materials, journals, and digital databases, all carefully curated to enhance learning in the fields of nursing.
 
                                 </p>
@@ -42,11 +42,11 @@ const SpotLight = () => {
                     </div>
                     <div className="flex-1">
                         <div className="flex w-[120px] items-center justify-between py-4">
-                            <Separator orientation={"vertical"} className="bg-otherColor border border-red-600 h-6"/>
+                            <Separator orientation={"vertical"} className="  border border-secondaryColor h-6"/>
                             <div className="flex items-center">
-                                <Users className="mr-2 "/>
+                                <Users className="mr-2 text-secondaryColor "/>
 
-                                <p className="uppercase font-bold text-sm">Students</p>
+                                <p className="uppercase font-extrabold text-TeiColors text-sm">Students</p>
                             </div>
                         </div>
                         <Card className="">
@@ -58,7 +58,7 @@ const SpotLight = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="p-0">
-                                <p className="text-lg  text-white bg-otherColor font-medium text-justify p-4">
+                                <p className="text-lg  text-white bg-primaryColor font-medium text-justify p-4">
                                     The COHSA Library offers an extensive collection of resources, including textbooks,
                                     reference materials, journals, and digital databases, all carefully curated to
                                     enhance learning in the fields of nursing.
@@ -70,11 +70,11 @@ const SpotLight = () => {
                     </div>
                     <div className="flex-1">
                         <div className="flex w-[190px] items-center justify-between py-4">
-                            <Separator orientation={"vertical"} className="bg-otherColor border border-red-600 h-6"/>
+                            <Separator orientation={"vertical"} className="border border-secondaryColor h-6"/>
                             <div className="flex items-center">
-                                <Navigation className="mr-2 " />
+                                <Navigation className="mr-2 text-secondaryColor" />
 
-                                <p className="uppercase font-bold text-sm">College Location</p>
+                                <p className="uppercase font-extrabold text-TeiColor text-sm">College Location</p>
                             </div>
                         </div>
                         <Card>
@@ -88,7 +88,7 @@ const SpotLight = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="p-0">
-                                <p className="text-lg  text-white bg-otherColor font-medium text-justify p-4 capitalize">
+                                <p className="text-lg  text-white bg-primaryColor font-medium text-justify p-4 capitalize">
                                     This nobel college of health is locate at Western North Region of Ghana.
 
                                 </p>

@@ -9,6 +9,7 @@ import EventsAnnounce from "@/components/eventsAnnounce";
 import Media from "@/components/media";
 import Spotlight from "@/components/spotlight";
 import Footer from "@/components/Footer";
+import QuickNote from "@/components/quickNote";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <EventsAnnounce/>
           <Media/>
           <Spotlight/>
+          <QuickNote/>
         <Footer/>
       </main>
   );
