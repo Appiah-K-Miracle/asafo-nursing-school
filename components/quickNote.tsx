@@ -3,12 +3,13 @@ import {Button} from "@/components/ui/button";
 
 const QuickNote = () => {
     return (
-        <section className="w-full bg-TeiColor">
-            <div className="text-white p-20 text-center capitalize">
-                <h2 className="text-4xl font-extrabold uppercase">How to Apply</h2>
-                <p>INFORMATION ON HOW TO PURCHASE and FILL the FORMS </p>
-                <div>
-                    <Button className="text-white">Read More</Button>
+        <section className="w-full bg-TeiColor mt-7 bg-opacity-90">
+            <div className="text-white p-10 md:p-20 text-center capitalize">
+                <h2 className="text-2xl md:text-4xl font-extrabold uppercase">How to Apply</h2>
+                <p className="text-xl md:uppercase font-bold text-center pb-4">Information on how to purchase and fill the forms. </p>
+                <div className="flex gap-2 justify-center">
+                    <Button className="text-white border border-primaryColor bg-primaryColor">Read More</Button>
+                    <Button className="text-white border border-secondaryColor bg-secondaryColor">Contact Us</Button>
                 </div>
             </div>
 
