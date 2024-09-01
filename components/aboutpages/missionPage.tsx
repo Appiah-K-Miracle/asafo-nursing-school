@@ -11,12 +11,12 @@ const MissionPage = () => {
                 <Image src={pic5} alt="header image" className="w-full opacity-20 md:opacity-40 h-[400px]"/>
 
             </div>
-            <h2 className="absolute top-72 text-center md:left-[35rem] md:top-1/3 text-white text-4xl md:text-6xl font-extrabold capitalize">mission, vision & Core Values</h2>
+            <h2 className="absolute top-72 text-center md:left-[22rem] md:top-1/3 text-white text-4xl md:text-6xl font-extrabold capitalize">mission, vision & Core Values</h2>
             <div className="mx-4 md:mx-32 bg-white relative -top-20">
                 <div className="px-10 md:px-32 md:py-16 text-left tracking-wide font-medium text-xl text-TeiColor py-4 pb-3">
-                    <Tabs defaultValue="mission" className="w-full">
+                    <Tabs defaultValue="mission" className="w-full md:flex md:gap-16">
 
-                            <TabsList className="flex-col  w-full h-full  bg-white"  >
+                            <TabsList className="flex flex-col  w-full h-full md:w-[200px]   bg-white"  >
                                 <TabsTrigger value="mission" className="text-lg w-full p-5 my-2 bg-gray-100">Mission</TabsTrigger>
                                 <TabsTrigger value="vision" className="text-lg w-full p-5 my-2 bg-gray-100">Vision</TabsTrigger>
                                 <TabsTrigger value="core" className="text-lg w-full p-5 my-2 bg-gray-100">Core Values</TabsTrigger>
