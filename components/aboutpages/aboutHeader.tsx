@@ -6,12 +6,12 @@ const AboutHeader = () => {
     return (
         <section>
             <div className=" bg-TeiColor">
-                <Image src={pic4} alt="header image" className="w-full opacity-0"/>
+                <Image src={pic4} alt="header image" className="w-full opacity-0 md:opacity-5 md:h-[400px]"/>
 
             </div>
-            <h2 className="absolute top-1/4 left-8 text-white text-5xl font-extrabold uppercase">About COHSA</h2>
-            <div className="mx-4 bg-white relative -top-20">
-                <div className="px-4 text-left tracking-wide font-medium text-xl text-TeiColor py-4 pb-3">
+            <h2 className="absolute top-1/4 left-8 md:left-[35rem] md:top-1/3 text-white text-5xl md:text-6xl font-extrabold uppercase">About COHSA</h2>
+            <div className="mx-4 md:mx-32 bg-white relative -top-20">
+                <div className="px-4 md:px-32 md:py-16 text-left tracking-wide font-medium text-xl text-TeiColor py-4 pb-3">
                     <p className="pb-4">
                         Sefwi Asafo Nursing Training College was established on 24th October 2014 by the Asafo community
                         through the initiative of a five member committee namely, <span className="font-bold">Mr. Simon Asante,</span> <span className="font-bold">Mr. Alex Agyapong,</span> <span className="font-bold">Mr. Thomas Adjei (Deceased),</span> <span className="font-bold">Mr. Emmanuel Oppong,</span> <span className="font-bold">Mr. Peter Ntori</span>
