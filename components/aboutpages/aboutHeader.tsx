@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from "next/image";
-import {pic4} from "@/public/images";
+import {pic4, pic5} from "@/public/images";
 
 const AboutHeader = () => {
     return (
         <section>
-            <div className=" bg-TeiColor">
-                <Image src={pic4} alt="header image" className="w-full opacity-0 md:opacity-5 md:h-[400px]"/>
+            <div className=" bg-primaryColor">
+                <Image src={pic5} alt="header image" className="w-full opacity-0 md:opacity-40 md:h-[400px]"/>
 
             </div>
             <h2 className="absolute top-1/4 left-8 md:left-[35rem] md:top-1/3 text-white text-5xl md:text-6xl font-extrabold uppercase">About COHSA</h2>

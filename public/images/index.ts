@@ -7,3 +7,4 @@ export { default as pic1 } from './carousel-img1.jpg';
 export { default as pic2 } from './img1.jpeg';
 export { default as pic3 } from './img9.jpg';
 export { default as pic4 } from './img10.jpeg';
+export { default as pic5 } from './img11.jpg';
