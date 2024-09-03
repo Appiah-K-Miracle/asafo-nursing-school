@@ -1,5 +1,5 @@
 import React from 'react';
-import MissionPage from "@/components/aboutpages/missionPage";
+import MissionPage from "@/components/aboutPages/missionPage";
 
 function MissionMPage() {
     return (

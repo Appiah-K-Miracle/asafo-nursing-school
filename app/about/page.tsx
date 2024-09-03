@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutHeader from "@/components/aboutpages/aboutHeader";
+import AboutHeader from "@/components/aboutPages/aboutHeader";
 
 function AboutPage() {
     return (
