@@ -1,7 +1,7 @@
 import React from 'react';
 import ApplyReq from "@/components/admissionPages/applyReq";
 
-const ApplyPage = () => {
+const HowToApplyPage = () => {
     return (
         <main>
             <ApplyReq />
@@ -9,4 +9,4 @@ const ApplyPage = () => {
     );
 };
 
-export default ApplyPage;
+export default HowToApplyPage;

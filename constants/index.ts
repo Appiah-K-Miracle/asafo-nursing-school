@@ -84,7 +84,7 @@ export const AcademicSubNavbar = [
 
 export const AdmissionSubNavbar = [
     {
-        title: "How to apply",
+        title: "How to how-to-apply",
         href: "/docs/primitives/alert-dialog",
         description: ""
 
