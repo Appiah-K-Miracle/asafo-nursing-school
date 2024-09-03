@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 import {apply} from "@/public/images";
+import RequirementProcess from "@/components/requirementProcess";
 
 const ApplyReq = () => {
     return (
@@ -9,7 +10,7 @@ const ApplyReq = () => {
             <div className="bg-primaryColor">
                 <Image src={apply} alt="Apply Req" className="opacity-50 h-[150px]"/>
             </div>
-            <div className="px-4">
+            <div className="px-6">
                 <div className="bg-gray-100 px-5 py-5">
                     <h1 className="text-TeiColor font-extrabold text-2xl">General Requirement</h1>
                     <div className="py-5">
@@ -39,6 +40,7 @@ const ApplyReq = () => {
                     </div>
 
                 </div>
+                <RequirementProcess/>
             </div>
         </section>
     );
