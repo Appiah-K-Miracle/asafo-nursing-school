@@ -6,43 +6,37 @@ import {facebook, instagram, linkedin, twitter, youtube} from "@/public/icons";
 export const AboutSubNavbar = [
     {
         title: "About COHSA",
-        href: "/docs/primitives/alert-dialog",
+        href: "/about/about-cohsa",
         description: ""
 
     },
     {
         title: "Our History",
-        href: "/docs/primitives/hover-card",
+        href: "/about/history",
         description: ""
 
     },
     {
         title: "Mission & Vision",
-        href: "/docs/primitives/progress",
+        href: "/about/mission-values",
         description: ""
     },
 
     {
         title: "Council Members",
-        href: "/docs/primitives/scroll-area",
+        href: "/about/council-members",
         description: ""
 
     },
     {
         title: "Office of the Principal",
-        href: "/docs/primitives/tabs",
+        href: "/about/principal",
         description: ""
 
     },
     {
         title: "College Anthem",
-        href: "/docs/primitives/tooltip",
-        description: ""
-
-    },
-    {
-        title: "Contact Us",
-        href: "/docs/primitives/tooltip",
+        href: "/about/college-anthem",
         description: ""
 
     },
@@ -51,31 +45,26 @@ export const AboutSubNavbar = [
 export const AcademicSubNavbar = [
     {
         title: "Academic Calendar",
-        href: "/docs/primitives/alert-dialog",
+        href: "/academic/academic-calendar",
         description: ""
 
     },
     {
         title: "Academic Affairs",
-        href: "/docs/primitives/hover-card",
+        href: "/academic/academic-affairs",
         description: ""
 
-    },
-    {
-        title: "Affiliate Institution",
-        href: "/docs/primitives/progress",
-        description: ""
     },
 
     {
         title: "Examination",
-        href: "/docs/primitives/scroll-area",
+        href: "/academic/examination",
         description: ""
 
     },
     {
         title: "Faculties",
-        href: "/docs/primitives/tabs",
+        href: "/academic/faculties",
         description: ""
 
     },
@@ -85,40 +74,30 @@ export const AcademicSubNavbar = [
 export const AdmissionSubNavbar = [
     {
         title: "How to how-to-apply",
-        href: "/docs/primitives/alert-dialog",
+        href: "/admission/how-to-apply",
         description: ""
 
     },
     {
         title: "Student Hand Book",
-        href: "/docs/primitives/hover-card",
+        href: "/admission/student-handbook",
         description: ""
 
     },
     {
         title: "Accommodation",
-        href: "/docs/primitives/progress",
+        href: "/admission/accommodation",
         description: ""
     },
 
     {
         title: "Freshers Guide",
-        href: "/docs/primitives/scroll-area",
+        href: "/admission/fresher-guide",
         description: ""
 
     },
-    {
-        title: "Matriculation",
-        href: "/docs/primitives/tabs",
-        description: ""
 
-    },
-    {
-        title: "Orientation",
-        href: "/docs/primitives/tabs",
-        description: ""
 
-    },
 
 ]
 
