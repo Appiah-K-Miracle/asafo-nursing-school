@@ -21,6 +21,7 @@ import {
 
 
 
+
 const ExamPage = () => {
     return (
         <section>
@@ -83,7 +84,7 @@ const ExamPage = () => {
                             <DialogHeader>
                                 <DialogDescription>
                                     <Table>
-                                        <TableHeader className="text-lg font-bold text-TeiColor uppercase">
+                                        <TableHeader className="text-xs md:text-lg font-bold text-TeiColor uppercase">
                                             <TableRow>
                                                 <TableHead >Grade Letter</TableHead>
                                                 <TableHead>Mark (%)</TableHead>
@@ -91,7 +92,7 @@ const ExamPage = () => {
                                                 <TableHead>Interpretation</TableHead>
                                             </TableRow>
                                         </TableHeader>
-                                        <TableBody className="text-lg text-TeiColor font-bold">
+                                        <TableBody className="text-xs md:text-lg text-TeiColor font-bold">
                                             <TableRow>
                                                 <TableCell>A</TableCell>
                                                 <TableCell>80-100</TableCell>
@@ -153,8 +154,6 @@ const ExamPage = () => {
                         </DialogContent>
                     </Dialog>
                     </div>
-
-
                 </div>
             </div>
 

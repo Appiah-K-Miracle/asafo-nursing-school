@@ -127,8 +127,8 @@ export const StudentSubNavbar = [
 
     },
     {
-        title: "How to pay fees",
-        href: "/docs/primitives/tabs",
+        title: "Gallery",
+        href: "/students/students-gallery",
         description: ""
 
     },
