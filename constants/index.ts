@@ -139,13 +139,13 @@ export const StudentSubNavbar = [
 export const StaffSubNavbar = [
     {
         title: "Vacancies",
-        href: "/docs/primitives/alert-dialog",
+        href: "/staff/vacancies",
         description: ""
 
     },
     {
         title: "Find a Staff",
-        href: "/docs/primitives/hover-card",
+        href: "/staff/find-a-staff",
         description: ""
 
     },

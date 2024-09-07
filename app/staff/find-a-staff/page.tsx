@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import {animateSVG} from "@/public/svgFile";
 
-const VacanciesPage = () => {
+const FindStaffPage = () => {
     return (
         <section className=" py-16">
             <div className="flex text-center justify-center ">
@@ -17,4 +17,4 @@ const VacanciesPage = () => {
     );
 };
 
-export default VacanciesPage;
+export default FindStaffPage;
