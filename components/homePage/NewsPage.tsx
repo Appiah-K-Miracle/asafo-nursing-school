@@ -9,7 +9,7 @@ function NewsPage() {
        <section className="w-full py-4 md:px-16 ">
            <div className="container py-5 md:px-20 justify-between  md:flex md:gap-32">
                <div className="flex-1">
-                   <h2 className="text-2xl md:text-3xl uppercase font-extrabold text-TeiColor py-4 ">News from COHSA</h2>
+                   <h2 className="text-2xl md:text-3xl uppercase font-extrabold text-primaryColor py-4 ">News from COHSA</h2>
                    <div className="py-7">
                        <Image src={pic1} alt="News1"  className=" md:h-[350px]" />
                    </div>
@@ -22,8 +22,8 @@ function NewsPage() {
                <div className="py-5 flex-1">
                    <div className="flex flex-wrap items-center justify-between">
                        <h2 className="text-xl md:text-[25px] capitalize font-extrabold text-TeiColor">Explore more news</h2>
-                       <div className="border border-green-600 p-1 bg-primaryColor">
-                           <h2 className="text-white capitalize">Read more {'>>'} </h2>
+                       <div className="border border-secondaryColor p-1 bg-secondaryColor">
+                           <h2 className="text-white capitalize px-1.5">Read more {'>>'} </h2>
                        </div>
                    </div>
                    <div className=" pt-7">

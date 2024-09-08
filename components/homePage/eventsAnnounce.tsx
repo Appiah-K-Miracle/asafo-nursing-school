@@ -6,7 +6,7 @@ import {CalendarCheck2, Megaphone} from "lucide-react";
 function EventsAnnounce() {
     return (
         <section >
-            <div className="w-full bg-TeiColor">
+            <div className="w-full bg-primaryColor">
                 <h2 className="uppercase text-lg md:text-3xl py-10 font-extrabold text-white  md:text-justify px-16 md:px-32">Events & Announcements</h2>
             </div>
             <div className="md:flex md:mx-16">

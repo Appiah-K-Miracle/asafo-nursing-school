@@ -4,7 +4,7 @@ import {AboutCollege, Courses, Events, Location} from "@/constants";
 
 const Footer = () => {
     return (
-        <section className="bg-primaryColor pt-10 pb-5 mt-2">
+        <section className="bg-primaryColor pt-10 pb-5 mt-2 md:px-32">
             <div className="md:flex justify-between container ">
                 <div className="flex-1 md:pt-5">
                     <div className=" ">
@@ -42,7 +42,7 @@ const Footer = () => {
                     ))}
                 </div>
             </div>
-        <div className=" text-center mt-10 py-5">
+        <div className="text-center mt-10 py-5">
             <p className="text-sm text-white">&copy; 2024 College Of Health, Sefwi-Asafo, Ghana | Ghana Post GPS Address: WN-394-393  </p>
         </div>
 

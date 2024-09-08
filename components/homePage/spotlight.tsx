@@ -10,7 +10,7 @@ const SpotLight = () => {
         <section className=" px-4 py-7 md:px-32">
             <div className="">
                 <div className=" pt-5">
-                    <h2 className="text-4xl font-extrabold uppercase text-TeiColor">SpotLight</h2>
+                    <h2 className="text-4xl font-extrabold uppercase text-primaryColor">SpotLight</h2>
                     <Separator className="w-[70px] border-2 mb-5 border-secondaryColor"/>
                 </div>
                 <div className="md:flex gap-2"> {/*responsiveness*/}
@@ -20,7 +20,7 @@ const SpotLight = () => {
                             <div className="flex items-center">
 
                             <BriefcaseBusiness className="mr-2  text-secondaryColor" />
-                            <p className="uppercase font-extrabold text-TeiColor text-sm">Staff</p>
+                            <p className="uppercase font-extrabold text-primaryColor text-sm">Staff</p>
                             </div>
                         </div>
                         <Card className="">
@@ -46,7 +46,7 @@ const SpotLight = () => {
                             <div className="flex items-center">
                                 <Users className="mr-2 text-secondaryColor "/>
 
-                                <p className="uppercase font-extrabold text-TeiColors text-sm">Students</p>
+                                <p className="uppercase font-extrabold text-primaryColor text-sm">Students</p>
                             </div>
                         </div>
                         <Card className="">
@@ -74,7 +74,7 @@ const SpotLight = () => {
                             <div className="flex items-center">
                                 <Navigation className="mr-2 text-secondaryColor" />
 
-                                <p className="uppercase font-extrabold text-TeiColor text-sm">College Location</p>
+                                <p className="uppercase font-extrabold text-primaryColor text-sm">College Location</p>
                             </div>
                         </div>
                         <Card>
@@ -82,15 +82,14 @@ const SpotLight = () => {
                                 <CardTitle>
                                     <div  >
                                         <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126877.42316700633!2d-2.8079509735107306!3d6.404375633724914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc4a77c27ac3389%3A0x82ab7ac63a6eae91!2sCOLLEGE%20OF%20HEALTH%2CSEFWI%20ASAFO!5e0!3m2!1sen!2sgh!4v1724862206004!5m2!1sen!2sgh"  allowFullScreen loading="lazy" className="w-full md:h-[350px]"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126877.42316700633!2d-2.8079509735107306!3d6.404375633724914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc4a77c27ac3389%3A0x82ab7ac63a6eae91!2sCOLLEGE%20OF%20HEALTH%2CSEFWI%20ASAFO!5e0!3m2!1sen!2sgh!4v1724862206004!5m2!1sen!2sgh"  allowFullScreen loading="lazy" className="w-full md:h-[308px]"
                                             referrerPolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="p-0">
+                            <CardContent className="p-0 ">
                                 <p className="text-lg  text-white bg-primaryColor font-medium text-justify p-4 capitalize">
                                     This nobel college of health is locate at Western North Region of Ghana.
-
                                 </p>
                             </CardContent>
 
