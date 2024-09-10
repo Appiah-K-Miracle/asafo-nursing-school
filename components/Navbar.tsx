@@ -4,6 +4,7 @@ import { AboutSubNavbar, AcademicSubNavbar, AdmissionSubNavbar, StaffSubNavbar, 
 import { menu} from "@/public/icons"; // Assume arrowDown is an icon for the indicator
 import {ChevronDown} from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -50,7 +51,9 @@ export function Navbar() {
                 <NavItem title="Admission" subItems={AdmissionSubNavbar}/>
                 <NavItem title="Students" subItems={StudentSubNavbar}/>
                 <NavItem title="Staff" subItems={StaffSubNavbar}/>
-                <li className="text-TextColor text-lg font-medium">Research</li>
+                <li className="text-TextColor text-lg font-medium">
+                    <Link href="/research">Research</Link>
+                </li>
             </div>
         </nav>
     );

@@ -43,7 +43,7 @@ const ApplyReq = () => {
                 </div>
                 <RequirementProcess/>
             </div>
-            <div className="bg-TeiColor my-4">
+            <div className="bg-primaryColor my-4">
                 <h1 className="text-white px-6 text-4xl py-10 font-bold md:text-5xl md:mx-32">Basic Questions</h1>
             </div>
             <div className="flex flex-col gap-4 md:flex-row md:gap-4 md:mx-32 md:my-10">

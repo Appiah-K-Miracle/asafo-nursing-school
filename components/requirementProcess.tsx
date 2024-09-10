@@ -11,7 +11,7 @@ const RequirementProcess = () => {
     return (
         <section>
             <div className="py-6 px-6">
-                <h1 className="text-2xl uppercase font-extrabold text-TeiColor pb-4">
+                <h1 className="text-2xl uppercase font-extrabold text-primaryColor pb-4">
                     Requirements for Admission Process
                 </h1>
                 <p className="text-left text-sm font-bold text-gray-800">Before moving to the online application
@@ -20,7 +20,7 @@ const RequirementProcess = () => {
             <div className="px-6">
                 <Accordion type="single" collapsible className="">
                     <AccordionItem value="item-1">
-                        <AccordionTrigger className="text-TeiColor font-bold capitalize text-lg">Requirement to fill out
+                        <AccordionTrigger className="text-secondaryColor font-bold capitalize text-lg">Requirement to fill out
                             the form</AccordionTrigger>
                         <AccordionContent>
                             <ul className="list-disc px-8 text-TeiColor font-medium text-xl text-left">
@@ -32,7 +32,7 @@ const RequirementProcess = () => {
                                 <li className="pb-2">Active Phone Number</li>
                                 <li className="pb-2">Passport Sized Photo
                                     <div
-                                        className="bg-gray-200 text-TeiColor py-4 my-4 font-bold text-sm px-5 rounded-sm border-l-primaryColor border-l-8">
+                                        className="bg-secondaryColor text-white py-4 my-4 font-bold text-sm px-5 rounded-sm border-l-primaryColor border-l-8">
                                         <p>Picture Dimension must be 450x450 pixels</p>
                                     </div>
                                 </li>
@@ -40,8 +40,7 @@ const RequirementProcess = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
-                        <AccordionTrigger className="text-TeiColor font-bold capitalize text-lg">Information Required to
-                            fill out the form</AccordionTrigger>
+                        <AccordionTrigger className="text-secondaryColor font-bold capitalize text-lg">Information Required to fill out the form</AccordionTrigger>
                         <AccordionContent>
                             <ul className="list-disc px-8 text-TeiColor font-medium text-xl text-left">
                                 <li className="pb-2"> First Name</li>

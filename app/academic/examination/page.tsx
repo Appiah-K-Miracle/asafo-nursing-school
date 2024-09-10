@@ -72,7 +72,7 @@ const ExamPage = () => {
                         the whole examination in the following year only.
                     </h3>
 
-                    <div className="bg-secondaryColor text-white mt-7 mb-4 p-4 border border-l-8 border-l-primaryColor">
+                    <div className="bg-secondaryColor text-white rounded-sm mt-7 mb-4 p-4 border border-l-8 border-l-primaryColor">
                         <p className="text-lg">
                             This rules have been agreed by Management and academic board that continuous assessment will not be considered for resit papers.
                         </p>

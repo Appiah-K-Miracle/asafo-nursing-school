@@ -104,25 +104,25 @@ export const AdmissionSubNavbar = [
 export const StudentSubNavbar = [
     {
         title: "Dean of Students",
-        href: "/docs/primitives/alert-dialog",
+        href: "/students/dean-of-students",
         description: ""
 
     },
     {
         title: "College Life",
-        href: "/docs/primitives/hover-card",
+        href: "/students/college-life",
         description: ""
 
     },
     {
         title: "SRC",
-        href: "/docs/primitives/progress",
+        href: "/students/src-for-students",
         description: ""
     },
 
     {
         title: "Students Activities",
-        href: "/docs/primitives/scroll-area",
+        href: "/students/students-activities",
         description: ""
 
     },

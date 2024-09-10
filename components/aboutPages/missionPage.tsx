@@ -24,7 +24,7 @@ const MissionPage = () => {
 
                         <TabsContent value="mission">We believe that, Graduates from this institution will be able to use the knowledge acquired in the principles of homeostasis to meet patients’ needs by monitoring vital signs of patient and their reaction to disease conditions, trauma, stress, anxiety, and administer prescribed medication to patients.
                         </TabsContent>
-                        <TabsContent value="vision">Our goal is to cultivate and maintain the highest possible standard in our academic activities.
+                        <TabsContent value="vision" className="md:mt-24">Our goal is to cultivate and maintain the highest possible standard in our academic activities.
                         </TabsContent>
                         <TabsContent value="core">
                             <ul className="py-3 list-disc">
