@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import {pic1} from "@/public/images";
+import {CarouseImg1, pic1} from "@/public/images";
 import {News} from "@/constants";
 import {Separator} from "@/components/ui/separator";
 
@@ -11,7 +11,7 @@ function NewsPage() {
                <div className="flex-1">
                    <h2 className="text-2xl md:text-3xl uppercase font-extrabold text-primaryColor py-4 ">News from COHSA</h2>
                    <div className="py-7">
-                       <Image src={pic1} alt="News1"  className=" md:h-[350px]" />
+                       <Image src={CarouseImg1} alt="News1"  className=" md:h-[350px]" />
                    </div>
                    <div>
                        <p className="text-TextColor font-bold py-2">September 10, 2024</p>
