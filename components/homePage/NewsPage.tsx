@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import {CarouseImg1, pic1} from "@/public/images";
+import {CarouseImg1} from "@/public/images";
 import {News} from "@/constants";
 import {Separator} from "@/components/ui/separator";
 

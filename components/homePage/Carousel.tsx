@@ -5,8 +5,6 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
 } from "@/components/ui/carousel"
 import {useRef} from "react";
 import {CarouseImages} from "@/constants";
