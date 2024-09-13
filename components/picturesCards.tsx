@@ -5,7 +5,7 @@ import {pic5} from "@/public/images";
 const PicturesCards = () => {
     const cards = [
         {
-            title: 'Pictures',
+            title: 'Group of Nurses',
             src: '/images/img1.jpeg',
         },
         {
