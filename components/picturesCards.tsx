@@ -9,7 +9,7 @@ const PicturesCards = () => {
             src: '/images/img1.jpeg',
         },
         {
-            title: 'Pictures',
+            title: 'Pics',
             src: '/images/img5.jpeg',
         },
         {
