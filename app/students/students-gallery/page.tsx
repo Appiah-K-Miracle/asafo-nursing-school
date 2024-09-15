@@ -2,6 +2,8 @@ import React from 'react';
 import Image from "next/image";
 import {pic5} from "@/public/images";
 import PicturesCards from "@/components/picturesCards";
+import GraduationPicturesCards from "@/components/picturesCards";
+import StudentPicturesCards from "@/components/studentPicturesCards";
 
 const StudentGalleryPage = () => {
     return (
@@ -17,7 +19,11 @@ const StudentGalleryPage = () => {
                     <div>
                         <h2>Graduations</h2>
                     </div>
-                    <PicturesCards/>
+                    <GraduationPicturesCards/>
+                    <div>
+                        <h2>Students</h2>
+                    </div>
+                    <StudentPicturesCards/>
                 </div>
             </div>
 

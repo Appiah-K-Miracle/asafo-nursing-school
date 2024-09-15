@@ -2,28 +2,25 @@ import React from 'react';
 import {FocusCards} from "@/components/ui/focus-cads";
 import {pic5} from "@/public/images";
 
-const PicturesCards = () => {
+const GraduationPicturesCards = () => {
     const cards = [
         {
-            title: 'Group of Nurses',
-            src: '/images/img1.jpeg',
+            title: 'The graduation group picture with the principal. ',
+            src: '/images/graduation2.jpg',
         },
         {
             title: 'Pics',
-            src: '/images/img5.jpeg',
+            src: '/images/graduation1.jpg',
         },
         {
             title: 'Pictures',
-            src: '/images/img7.jpeg',
+            src: '/images/graduation3.jpg',
         },
-        {
-            title: 'Pictures',
-            src: '/images/img11.jpg',
-        },
+
     ]
     return (
         <FocusCards cards={cards} />
     );  
 };
 
-export default PicturesCards;
+export default GraduationPicturesCards;
