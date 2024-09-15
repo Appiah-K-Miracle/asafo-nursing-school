@@ -14,6 +14,9 @@ const StudentGalleryPage = () => {
             <div className="mx-4 md:mx-32 bg-white relative -top-20">
                 <div
                     className="px-4 md:px-32 md:py-16 text-left tracking-wide font-medium text-xl text-TeiColor py-4 pb-3">
+                    <div>
+                        <h2>Graduations</h2>
+                    </div>
                     <PicturesCards/>
                 </div>
             </div>
