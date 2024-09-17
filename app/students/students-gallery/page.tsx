@@ -17,11 +17,11 @@ const StudentGalleryPage = () => {
                 <div
                     className="px-4 md:px-32 md:py-16 text-left tracking-wide font-medium text-xl text-TeiColor py-4 pb-3">
                     <div>
-                        <h2>Graduations</h2>
+                        <h2 className="text-2xl font-extrabold py-7">Graduations</h2>
                     </div>
                     <GraduationPicturesCards/>
                     <div>
-                        <h2>Students</h2>
+                        <h2 className="text-2xl font-extrabold py-7">Students</h2>
                     </div>
                     <StudentPicturesCards/>
                 </div>
