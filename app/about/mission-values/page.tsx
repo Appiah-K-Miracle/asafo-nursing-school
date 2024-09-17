@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import MissionPage from "@/components/aboutPages/missionPage";
 
 function MissionMPage() {
-    return (
-        <main>
-            <MissionPage/>
-        </main>
-    );
+  return (
+    <main>
+      <MissionPage />
+    </main>
+  );
 }
 
 export default MissionMPage;
