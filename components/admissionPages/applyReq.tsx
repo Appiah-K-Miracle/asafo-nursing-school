@@ -78,7 +78,7 @@ const ApplyReq = () => {
             How Much are the Nursing training Form?
           </h1>
           <p className="text-TeiColor text-lg font-medium">
-            The nurse's training forms cost GHC 200 but it will change in the
+            The nurses training forms cost GHC 200 but it will change in the
             future.
           </p>
         </div>

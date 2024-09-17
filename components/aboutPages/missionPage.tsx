@@ -43,9 +43,9 @@ const MissionPage = () => {
             <TabsContent value="mission">
               We believe that, Graduates from this institution will be able to
               use the knowledge acquired in the principles of homeostasis to
-              meet patients’ needs by monitoring vital signs of patient and
-              their reaction to disease conditions, trauma, stress, anxiety, and
-              administer prescribed medication to patients.
+              meet patients&rsquo; needs by monitoring vital signs of patient
+              and their reaction to disease conditions, trauma, stress, anxiety,
+              and administer prescribed medication to patients.
             </TabsContent>
             <TabsContent value="vision" className="md:mt-24">
               Our goal is to cultivate and maintain the highest possible
@@ -68,9 +68,10 @@ const MissionPage = () => {
                   patient, peer, or community member.
                 </li>
                 <li className="pb-4">
-                  <span className="font-bold">Accountability</span>: Taking
+                  <span className="font-bold">Accountability</span>:{" "}
+                  {`Taking
                   responsibility for one's actions and decisions in both
-                  clinical and educational settings.
+                  clinical and educational settings.`}
                 </li>
                 <li className="pb-4">
                   <span className="font-bold">Collaboration</span>: Promoting
