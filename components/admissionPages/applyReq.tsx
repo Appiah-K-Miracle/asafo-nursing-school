@@ -70,7 +70,7 @@ const ApplyReq = () => {
           </h1>
           <p className="text-TeiColor text-lg font-medium">
             The forms are available for purchase at any bank or online through
-            the Ghana Post app.{" "}
+            the Ghana Post app.
           </p>
         </div>
         <div className="bg-gray-100 p-4">
