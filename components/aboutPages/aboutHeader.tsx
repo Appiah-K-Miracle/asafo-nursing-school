@@ -12,7 +12,7 @@ const AboutHeader = () => {
           className="w-full opacity-0 md:opacity-40 md:h-[400px]"
         />
       </div>
-      <h2 className="absolute top-1/4 left-8 md:left-[35rem] md:top-1/3 text-white text-5xl md:text-6xl font-extrabold uppercase">
+      <h2 className="absolute top-1/4 text-center md:top-1/3 text-white text-5xl md:text-6xl font-extrabold uppercase">
         About COHSA
       </h2>
       <div className="mx-4 md:mx-32 bg-white relative -top-20">

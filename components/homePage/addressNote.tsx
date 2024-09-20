@@ -39,7 +39,7 @@ function AddressNote() {
                 COHSA Library
               </h2>
               <Separator className="my-2 bg-gray-300" />
-              <p className="text-lg font-medium text-justify">
+              <p className="text-lg font-medium">
                 The COHSA Library offers an extensive collection of resources,
                 including textbooks, reference materials, journals, and digital
                 databases, all carefully curated to enhance learning in the
@@ -61,7 +61,7 @@ function AddressNote() {
                 COHSA Student Portal
               </h2>
               <Separator className="my-2 bg-gray-300" />
-              <p className="text-lg font-medium text-justify">
+              <p className="text-lg font-medium">
                 The COHSA Student Portal is user-friendly platform where
                 students can access a wide range of academic and administrative
                 services, all in one convenient location.
